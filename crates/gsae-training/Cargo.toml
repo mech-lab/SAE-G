@@ -1,0 +1,10 @@
+[package]
+name = "gsae-training"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+gsae-objective = { workspace = true }
+

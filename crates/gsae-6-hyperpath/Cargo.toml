@@ -1,0 +1,13 @@
+[package]
+name = "gsae-6-hyperpath"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+gsae-core-types = { workspace = true }
+gsae-chart-core = { workspace = true }
+gsae-4-transport = { workspace = true }
+gsae-5-hypergraph = { workspace = true }
+

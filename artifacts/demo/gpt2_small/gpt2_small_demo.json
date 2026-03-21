@@ -1,0 +1,135 @@
+{
+  "model": "gpt2",
+  "framework": "transformers",
+  "device": "cpu",
+  "results": [
+    {
+      "prompt": "In a sparse chart, the coordinate support is",
+      "input_ids": [
+        818,
+        257,
+        29877,
+        8262,
+        11,
+        262,
+        20435,
+        1104,
+        318
+      ],
+      "top_next_tokens": [
+        {
+          "token": " a",
+          "prob": 0.025769783183932304,
+          "id": 257
+        },
+        {
+          "token": " not",
+          "prob": 0.022604752331972122,
+          "id": 407
+        },
+        {
+          "token": " pretty",
+          "prob": 0.021283045411109924,
+          "id": 2495
+        },
+        {
+          "token": " the",
+          "prob": 0.020287981256842613,
+          "id": 262
+        },
+        {
+          "token": " very",
+          "prob": 0.01983540691435337,
+          "id": 845
+        }
+      ],
+      "hidden_mean": 0.34459206461906433,
+      "hidden_std": 7.751283645629883
+    },
+    {
+      "prompt": "Geodesics on a pullback metric differ from",
+      "input_ids": [
+        10082,
+        4147,
+        873,
+        319,
+        257,
+        2834,
+        1891,
+        18663,
+        13238,
+        422
+      ],
+      "top_next_tokens": [
+        {
+          "token": " the",
+          "prob": 0.15975184738636017,
+          "id": 262
+        },
+        {
+          "token": " those",
+          "prob": 0.06043959781527519,
+          "id": 883
+        },
+        {
+          "token": " other",
+          "prob": 0.04629435017704964,
+          "id": 584
+        },
+        {
+          "token": " a",
+          "prob": 0.028911974281072617,
+          "id": 257
+        },
+        {
+          "token": " that",
+          "prob": 0.023469071835279465,
+          "id": 326
+        }
+      ],
+      "hidden_mean": 0.32700034976005554,
+      "hidden_std": 7.285229682922363
+    },
+    {
+      "prompt": "A hyperedge interaction should be",
+      "input_ids": [
+        32,
+        2537,
+        13653,
+        469,
+        10375,
+        815,
+        307
+      ],
+      "top_next_tokens": [
+        {
+          "token": " avoided",
+          "prob": 0.10274286568164825,
+          "id": 13941
+        },
+        {
+          "token": " used",
+          "prob": 0.044946372509002686,
+          "id": 973
+        },
+        {
+          "token": " considered",
+          "prob": 0.03722093999385834,
+          "id": 3177
+        },
+        {
+          "token": " a",
+          "prob": 0.036550622433423996,
+          "id": 257
+        },
+        {
+          "token": " done",
+          "prob": 0.022169750183820724,
+          "id": 1760
+        }
+      ],
+      "hidden_mean": 0.329958438873291,
+      "hidden_std": 7.8442511558532715
+    }
+  ]
+}

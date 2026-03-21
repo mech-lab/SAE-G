@@ -1,0 +1,19 @@
+[package]
+name = "gsae-demo"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+gsae-1-chart = { workspace = true }
+gsae-2-metric = { workspace = true }
+gsae-3-gauge = { workspace = true }
+gsae-4-transport = { workspace = true }
+gsae-5-hypergraph = { workspace = true }
+gsae-6-hyperpath = { workspace = true }
+gsae-chart-core = { workspace = true }
+gsae-core-types = { workspace = true }
+gsae-state-geometry = { workspace = true }
+gsae-pullback-metric = { workspace = true }
+gsae-geodesics = { workspace = true }

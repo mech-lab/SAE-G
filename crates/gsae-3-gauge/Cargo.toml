@@ -1,0 +1,14 @@
+[package]
+name = "gsae-3-gauge"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+gsae-core-types = { workspace = true }
+gsae-linalg = { workspace = true }
+gsae-chart-core = { workspace = true }
+gsae-state-geometry = { workspace = true }
+gsae-pullback-metric = { workspace = true }
+

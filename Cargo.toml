@@ -1,0 +1,58 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/gsae-core-types",
+  "crates/gsae-linalg",
+  "crates/gsae-state-geometry",
+  "crates/gsae-autodiff",
+  "crates/gsae-chart-core",
+  "crates/gsae-pullback-metric",
+  "crates/gsae-geodesics",
+  "crates/gsae-objective",
+  "crates/gsae-1-chart",
+  "crates/gsae-2-metric",
+  "crates/gsae-3-gauge",
+  "crates/gsae-4-transport",
+  "crates/gsae-5-hypergraph",
+  "crates/gsae-6-hyperpath",
+  "crates/gsae-atlas-router",
+  "crates/gsae-atlas-manager",
+  "crates/gsae-multilayer-runtime",
+  "crates/gsae-training",
+  "crates/gsae-artifacts",
+  "crates/gsae-benchmarks",
+  "crates/gsae-cli",
+  "crates/gsae-py",
+  "crates/gsae-demo",
+]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+authors = ["OpenAI"]
+license = "MIT"
+
+[workspace.dependencies]
+gsae-core-types = { path = "crates/gsae-core-types" }
+gsae-linalg = { path = "crates/gsae-linalg" }
+gsae-state-geometry = { path = "crates/gsae-state-geometry" }
+gsae-autodiff = { path = "crates/gsae-autodiff" }
+gsae-chart-core = { path = "crates/gsae-chart-core" }
+gsae-pullback-metric = { path = "crates/gsae-pullback-metric" }
+gsae-geodesics = { path = "crates/gsae-geodesics" }
+gsae-objective = { path = "crates/gsae-objective" }
+gsae-1-chart = { path = "crates/gsae-1-chart" }
+gsae-2-metric = { path = "crates/gsae-2-metric" }
+gsae-3-gauge = { path = "crates/gsae-3-gauge" }
+gsae-4-transport = { path = "crates/gsae-4-transport" }
+gsae-5-hypergraph = { path = "crates/gsae-5-hypergraph" }
+gsae-6-hyperpath = { path = "crates/gsae-6-hyperpath" }
+gsae-atlas-router = { path = "crates/gsae-atlas-router" }
+gsae-atlas-manager = { path = "crates/gsae-atlas-manager" }
+gsae-multilayer-runtime = { path = "crates/gsae-multilayer-runtime" }
+gsae-training = { path = "crates/gsae-training" }
+gsae-artifacts = { path = "crates/gsae-artifacts" }
+gsae-benchmarks = { path = "crates/gsae-benchmarks" }
+gsae-cli = { path = "crates/gsae-cli" }
+gsae-py = { path = "crates/gsae-py" }
+gsae-demo = { path = "crates/gsae-demo" }

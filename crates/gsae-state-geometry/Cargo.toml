@@ -1,0 +1,11 @@
+[package]
+name = "gsae-state-geometry"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+gsae-core-types = { workspace = true }
+gsae-linalg = { workspace = true }
+
