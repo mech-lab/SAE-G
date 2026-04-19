@@ -1,6 +1,6 @@
 # Geometric Sparse Autoencoder (GSAE) — Theory and Rust Implementation
 
-## Abstract
+## Abstractish
 
 This repository is a **mathematically-faithful, executable witness** for the Geometric Sparse Autoencoder (GSAE) theory. It is intentionally minimal: every crate and test exists to **realize a specific mathematical object or claim**. The code is not a training runtime or an experimental stack; it is a **proof‑of‑coverage implementation** that enforces the theory’s semantics and rejects  substitutions (Euclidean shortcuts, affine reparametrizations, cosine transport, or additive hyperedges) unless explicitly labeled as baselines.
 
